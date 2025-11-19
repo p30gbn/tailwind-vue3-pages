@@ -163,7 +163,7 @@
             <div class="absolute -top-24 left-1/4 w-1/2 z-40">
                 <video src="../assets/Mobile App Presentation Video Template - Renderforest (1080p, h264, youtube).mp4" controls class="rounded-xl"></video>
             </div>
-            <div class="absolute top-64 left-1/5">
+            <div class="hidden lg:block absolute top-64 left-1/5">
                 <img src="../assets/Dots.svg" alt="">
             </div>
             <div class="pt-48 pb-24 flex flex-col gap-32">
@@ -280,6 +280,138 @@
         </div>
 
     </section>
+    <section id="pricing" class="bg-softGray2 lg:bg-wave3">
+    <div class="relative container mx-auto px-18 pt-24 pb-38">
+      <div class="flex flex-col gap-12">
+        <div class="text-center mx-auto">
+          <h2 class="font-gilroyBold text-softBlack text-3xl max-w-xs">
+            Pricing made easy
+          </h2>
+          <p
+            class="mt-6 font-gilroyRegular text-softBlack text-base max-w-sm opacity-70"
+          >
+            With lots of unique blocks, you can easily build a page easily
+            without any coding.
+          </p>
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 mx-auto text-center">
+            <div class="flex flex-col gap-12 px-24 py-6 rounded-lg">
+                <div class="flex flex-col gap-6">
+                    <h6 class="font-gilroyBold text-xs text-lightRed2">Starter</h6>
+                    <div>
+                        <h1 class="font-gilroyBold text-softBlack text-4xl max-w-xs">
+                            <span class="font-gilroyBold text-softBlack text-lg">$</span>19<span class="font-rubik text-base text-softBlack">/ mo</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Upto 100 Team Members</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">100 GB Cloud Storage</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Meetings</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Premium Support</h5>
+                    <div>
+                        <button class="px-8 py-3 cursor-pointer bg-softBlack text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-softBlack border border-softBlack">Get Started Now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-12 px-24 py-6 bg-white rounded-lg">
+                <div class="flex flex-col gap-6">
+                    <h6 class="font-gilroyBold text-xs text-lightRed2">Unlimited</h6>
+                    <div>
+                        <h1 class="font-gilroyBold text-softBlack text-4xl max-w-xs">
+                            <span class="font-gilroyBold text-softBlack text-lg">$</span>99<span class="font-rubik text-base text-softBlack">/ mo</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8">
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Team Members</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Cloud Storage</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Meetings</h5>
+                    <h5 class="font-gilroyRegular text-base text-softBlack">Premium Support</h5>
+                    <div>
+                        <button class="px-8 py-3 cursor-pointer bg-lightRed3 text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-lightRed3 border border-lightRed3">Get Started Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="hidden lg:block absolute bottom-0 right-0.5">
+        <img src="../assets/Fill 1.svg" alt="">
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white">
+    <div class="container mx-auto px-24 pt-18 pb-24">
+        <div class="flex flex-col gap-18">
+            <div class="flex flex-col md:flex-row gap-12 md:gap-24 mx-auto justify-around">
+                <div class="flex flex-col gap-8 text-center">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">Company</h5>
+                    <div class="flex flex-col gap-4">
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">About us</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Contact us</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Careers</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Press</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8 text-center">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">Product</h5>
+                    <div class="flex flex-col gap-4">
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Features</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Pricing</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">News</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Help desk</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Support</a>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-8 text-center">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">Legal</h5>
+                    <div class="flex flex-col gap-4">
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Privacy Policys</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Terms & Conditions</a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Return Policy</a>
+                    </div>
+                </div>
+                <div class="md:ml-48 flex flex-col gap-8 text-center">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">Download Our App</h5>
+                    <div class="flex flex-col gap-4">
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">
+                            <img src="../assets/App Store.svg" alt="">
+                        </a>
+                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">
+                            <img src="../assets/Play Store.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-8 md:flex-row justify-between">
+                <div class="flex flex-row gap-2 items-center-safe">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">© 2025 Copyright, All Right Reserved, Made by <a class="hover:text-lightRed2 hover:underline underline-offset-1" href="mailto:p30gbdev2@gmail.com"> Dr. Mehdi Khairandish</a> with</h5>
+                    <div>
+                        <img src="../assets/Path.svg" alt="">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-8 items-center">
+                    <div>
+                        <a href="#"><img class="logo-hover" src="../assets/logo-twitter.svg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="logo-hover" src="../assets/logo-facebook.svg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="logo-hover" src="../assets/logo-instagram.svg" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img class="logo-hover" src="../assets/logo-linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+  </footer>
 
 
 </template>

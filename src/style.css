@@ -32,6 +32,8 @@
     --color-lightNavyBlue:#313C59;
     --color-darkNavyBlue:#161C2D;
     --color-softGray:#57595E;
+    --color-softGray2: #f4f7fa;
+    --color-lightRed3:#F74D4D;
 }
 
 
@@ -50,4 +52,15 @@
     background: url(./assets/Wave 2.svg) , linear-gradient(to top right ,#161C2D,#313C59);
     background-repeat:no-repeat;
     background-position:top;
+}
+
+
+@utility bg-wave3 {
+    background: url(./assets/Wave 3.svg) , linear-gradient(to top right ,#f4f7fa,#f4f7fa);
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+
+.logo-hover:hover{
+    filter: brightness(0) saturate(100%) invert(49%) sepia(40%) saturate(4917%) hue-rotate(333deg) brightness(101%) contrast(93%);
 }
