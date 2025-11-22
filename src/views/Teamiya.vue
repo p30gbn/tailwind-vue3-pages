@@ -5,7 +5,7 @@
                 <div>
                     <RouterLink :to="{name:'Teamiya'}" class="font-rubik text-2xl font-bold text-white">Teamiya</RouterLink>
                 </div>
-                <div class="flex flex-row gap-10 items-center">
+                <div class="hidden lg:flex flex-row gap-10 items-center">
                     <div class="flex flex-col gap-1 group">
                         <a href="#" class="font-gilroyBold text-sm text-white">Demos</a>
                         <div class="hidden mx-auto h-0.5 w-2/3 bg-lightRed group-hover:block"></div>
@@ -27,11 +27,11 @@
             </div>
         </nav>
         <div class="p-24">
-            <div class="flex flex-row gap-6">
+            <div class="flex flex-col md:flex-row gap-6">
                 <!-- Hero Content -->
-                <div class="flex flex-col gap-8 w-1/2">
-                    <h1 class="font-gilroyBold text-white text-4xl max-w-xs">Manage your remote team work</h1>
-                    <p class="font-gilroyRegular text-white text-base max-w-sm opacity-65">With lots of unique blocks, 
+                <div class="flex flex-col gap-8 lg:w-1/2">
+                    <h1 class="font-gilroyBold text-white text-2xl lg:text-4xl max-w-xs text-center lg:text-left">Manage your remote team work</h1>
+                    <p class="font-gilroyRegular text-white text-base max-w-sm opacity-65 text-center lg:text-left">With lots of unique blocks, 
                         you can easily build a page without coding. 
                         Build your next consultancy website within few minutes.
                     </p>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="flex flex-col gap-6">
                         <h6 class="font-gilroyBold text-grayieshWhite text-sm">Download our app</h6>
-                        <div class="flex flex-row gap-4">
+                        <div class="flex flex-col lg:flex-row gap-4">
                             <a href="#">
                                 <img src="../assets/App Store.svg" alt="App Store">
                             </a>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <!-- Hero Images -->
-                 <div class="w-1/2 relative pt-10">
+                 <div class="w-1/2 relative pt-10 hidden lg:block">
                     <div >
                         <img src="../assets/Dots.png" alt="Dots" class="absolute top-0 right-0" >
                     </div>
@@ -65,7 +65,7 @@
 
     <section id="collaborate" class="p-12 bg-softWhite relative -top-2.5">
         <!-- Collaborate Container -->
-        <div class="flex flex-row gap-16 mx-auto justify-center">
+        <div class="flex flex-col gap-4 md:flex-row md:gap-16 mx-auto justify-center">
             <div>
                 <img src="../assets/collaborate-image.png" alt="">
             </div>
@@ -93,7 +93,7 @@
 
     <section id="organize" class="px-18 pb-12 bg-softWhite">
         <!-- Organize Container -->
-        <div class="flex flex-row gap-16 mx-auto justify-center">
+        <div class="flex flex-col-reverse gap-4 md:flex-row md:gap-16 mx-auto justify-center">
             <!-- Organize Content -->
             <div  class="flex flex-col gap-18">
                 <div class="flex flex-col gap-4 pt-12">
@@ -123,7 +123,7 @@
                 <h2 class="font-gilroyBold text-softBlack text-3xl max-w-xs">How does it work?</h2>
                 <p class="font-gilroyRegular text-softBlack text-base max-w-md opacity-70">With lots of unique blocks, you can easily build a page easily without any coding.</p>
             </div>
-            <div class="relative flex flex-row gap-16 justify-center">
+            <div class="relative flex flex-col md:flex-row gap-16 justify-center">
                 <div class="flex flex-col gap-4 items-center">
                     <div class="w-15 py-3.5 px-6 bg-lightRed2 text-white rounded-full font-gilroyBold text-2xl">
                         1
@@ -159,30 +159,30 @@
     </section>
 
     <section id="we-made" class="mt-24 bg-wave2">
-        <div class="relative container mx-auto px-18 pt-56">
+        <div class="relative container mx-auto px-18 pt-12 md:pt-56">
             <div class="absolute -top-24 left-1/4 w-1/2 z-40">
                 <video src="../assets/Mobile App Presentation Video Template - Renderforest (1080p, h264, youtube).mp4" controls class="rounded-xl"></video>
             </div>
             <div class="hidden lg:block absolute top-64 left-1/5">
                 <img src="../assets/Dots.svg" alt="">
             </div>
-            <div class="pt-48 pb-24 flex flex-col gap-32">
+            <div class="pt-0 md:pt-48 pb-24 flex flex-col gap-32">
                 <div class="flex flex-col gap-16">
                     <div class="text-center flex justify-center">
                         <h2 class="font-gilroyBold text-white text-3xl max-w-sm">We made this app<br/> to solve your problems.</h2>
                     </div>
                     <div class="flex flex-col gap-12">
-                        <div class="flex flex-row gap-8 mx-auto">
-                            <div class="w-1/3 flex flex-row gap-4">
+                        <div class="flex flex-col md:flex-row gap-8 mx-auto">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/roadmap.svg" alt="">
                                 </div>
                                 <div>
-                                    <h4 class="font-gilroyBold text-white text-lg max-w-xs">Unlimited Projects</h4>
+                                    <h4 class="font-gilroyBold text-white text-lg max-w-sm">Unlimited Projects</h4>
                                     <p class="font-gilroyRegular text-white text-base max-w-xs opacity-65 mt-2">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                                 </div>
                             </div>
-                            <div class="w-1/3 flex flex-row gap-4">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/users-wm.svg" alt="">
                                 </div>
@@ -191,7 +191,7 @@
                                     <p class="font-gilroyRegular text-white text-base max-w-xs opacity-65 mt-2">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                                 </div>
                             </div>
-                            <div class="w-1/3 flex flex-row gap-4">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/share-91.svg" alt="">
                                 </div>
@@ -201,8 +201,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="flex flex-row gap-8 mx-auto">
-                            <div class="w-1/3 flex flex-row gap-4">
+                        <div class="flex flex-col md:flex-row gap-8 mx-auto">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/video_meeting.svg" alt="">
                                 </div>
@@ -211,7 +211,7 @@
                                     <p class="font-gilroyRegular text-white text-base max-w-xs opacity-65 mt-2">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                                 </div>
                             </div>
-                            <div class="w-1/3 flex flex-row gap-4">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/opening-times.svg" alt="">
                                 </div>
@@ -220,7 +220,7 @@
                                     <p class="font-gilroyRegular text-white text-base max-w-xs opacity-65 mt-2">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                                 </div>
                             </div>
-                            <div class="w-1/3 flex flex-row gap-4">
+                            <div class="md:w-1/3 flex flex-col items-center mx-auto md:items-start md:flex-row gap-4 text-center md:text-left">
                                 <div>
                                     <img src="../assets/card-favorite.svg" alt="">
                                 </div>
@@ -280,8 +280,8 @@
         </div>
 
     </section>
-    <section id="pricing" class="bg-softGray2 lg:bg-wave3">
-    <div class="relative container mx-auto px-18 pt-24 pb-38">
+    <section id="pricing" class="bg-softGray2 relative">
+    <div class="container mx-auto px-18 pt-24 pb-38">
       <div class="flex flex-col gap-12">
         <div class="text-center mx-auto">
           <h2 class="font-gilroyBold text-softBlack text-3xl max-w-xs">

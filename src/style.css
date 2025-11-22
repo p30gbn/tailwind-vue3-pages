@@ -43,13 +43,13 @@
 
 
 @utility bg-wave {
-    background: url(./assets/Wave.svg) , linear-gradient(to right bottom,#7B11F9,#3636B2);
+    background: linear-gradient(to right bottom,#7B11F9,#3636B2);
     background-repeat: no-repeat;
     background-position:bottom;
 }
 
 @utility bg-wave2 {
-    background: url(./assets/Wave 2.svg) , linear-gradient(to top right ,#161C2D,#313C59);
+    background: linear-gradient(to top right ,#161C2D,#313C59);
     background-repeat:no-repeat;
     background-position:top;
 }
