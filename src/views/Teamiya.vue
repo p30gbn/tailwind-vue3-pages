@@ -295,7 +295,7 @@
           </p>
         </div>
         <div class="flex flex-col md:flex-row gap-4 mx-auto text-center">
-            <div class="flex flex-col gap-12 px-24 py-6 rounded-lg">
+            <div class="flex flex-col gap-12 px-8 md:px-24 py-6 rounded-lg">
                 <div class="flex flex-col gap-6">
                     <h6 class="font-gilroyBold text-xs text-lightRed2">Starter</h6>
                     <div>
@@ -311,11 +311,10 @@
                     <h5 class="font-gilroyRegular text-base text-softBlack">Premium Support</h5>
                     <div>
                         <button class="px-8 py-3 cursor-pointer bg-softBlack text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-softBlack border-2 border-softBlack">Get Started Now</button>
-
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-12 px-24 py-6 bg-white rounded-lg">
+            <div class="flex flex-col gap-12 px-8 md:px-24 py-6 bg-white rounded-lg">
                 <div class="flex flex-col gap-6">
                     <h6 class="font-gilroyBold text-xs text-lightRed2">Unlimited</h6>
                     <div>
@@ -384,12 +383,9 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-8 md:flex-row justify-between">
-                <div class="flex flex-row gap-2 items-center-safe">
-                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">© 2025 Copyright, All Right Reserved, Made by <a class="hover:text-lightRed2 hover:underline underline-offset-1" href="mailto:p30gbdev2@gmail.com"> Dr. Mehdi Khairandish</a> with</h5>
-                    <div>
-                        <img src="../assets/Path.svg" alt="">
-                    </div>
+            <div class="flex flex-col gap-8 md:flex-row justify-between items-center">
+                <div class="">
+                    <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">© 2025 Copyright, All Right Reserved, Made by <a class="hover:text-lightRed2 hover:underline underline-offset-1" href="mailto:drmehdikhairandishmd@gmail.com"> Dr. Mehdi Khairandish</a> with<img class="inline-block mx-2" src="../assets/Path.svg" alt=""></h5>
                 </div>
                 <div class="flex flex-row gap-8 items-center">
                     <div>
