@@ -7,11 +7,11 @@
                 </div>
                 <div class="hidden lg:flex flex-row gap-10 items-center">
                     <div class="flex flex-col gap-1 group">
-                        <a href="#" class="font-gilroyBold text-sm text-white">Demos</a>
+                        <RouterLink :to="{name:'Signin'}" class="font-gilroyBold text-sm text-white">Signin</RouterLink>
                         <div class="hidden mx-auto h-0.5 w-2/3 bg-lightRed group-hover:block"></div>
                     </div>
                     <div class="flex flex-col gap-1 group">
-                        <a href="#" class="font-gilroyBold text-sm text-white">Pages</a>
+                        <RouterLink :to="{name:'Billing'}" class="font-gilroyBold text-sm text-white">Billing</RouterLink>
                         <div class="hidden mx-auto h-0.5 w-2/3 bg-lightRed group-hover:block"></div>
                     </div>
                     <div class="flex flex-col gap-1 group">
@@ -310,7 +310,7 @@
                     <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Meetings</h5>
                     <h5 class="font-gilroyRegular text-base text-softBlack">Premium Support</h5>
                     <div>
-                        <button class="px-8 py-3 cursor-pointer bg-softBlack text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-softBlack border border-softBlack">Get Started Now</button>
+                        <button class="px-8 py-3 cursor-pointer bg-softBlack text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-softBlack border-2 border-softBlack">Get Started Now</button>
 
                     </div>
                 </div>
@@ -330,7 +330,7 @@
                     <h5 class="font-gilroyRegular text-base text-softBlack">Unlimited Meetings</h5>
                     <h5 class="font-gilroyRegular text-base text-softBlack">Premium Support</h5>
                     <div>
-                        <button class="px-8 py-3 cursor-pointer bg-lightRed3 text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-lightRed3 border border-lightRed3">Get Started Now</button>
+                        <button class="px-8 py-3 cursor-pointer bg-lightRed3 text-white rounded-md font-gilroyBold text-base hover:bg-white hover:text-lightRed3 border-2 border-lightRed3">Get Started Now</button>
                     </div>
                 </div>
             </div>
@@ -348,8 +348,8 @@
                 <div class="flex flex-col gap-8 text-center">
                     <h5 class="font-gilroyRegular text-sm text-softBlack opacity-70">Company</h5>
                     <div class="flex flex-col gap-4">
-                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">About us</a>
-                        <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Contact us</a>
+                        <RouterLink :to="{name:'Signin'}" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Signin</RouterLink>
+                        <RouterLink :to="{name:'Billing'}" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Billing</RouterLink>
                         <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Careers</a>
                         <a href="#" class="font-gilroyRegular text-base text-softBlack hover:text-lightRed2">Press</a>
                     </div>
